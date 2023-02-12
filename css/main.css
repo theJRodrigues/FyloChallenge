@@ -1,0 +1,37 @@
+/* ARQUIVO CSS REFERENTE A EDIÇÃO DO BODY E CONTAINER */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/* Resetar as proprieades padrões */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Edição do body para centralizar os itens no meio da tela e editar a imagem de bakcground */
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(229, 57%, 11%);
+    background-image: url(../image/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-position: bottom;
+}
+
+/* Edição do Container */
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-height: 180px;
+    width: 90%;
+}
+
+
+
+

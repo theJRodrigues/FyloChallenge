@@ -1,0 +1,31 @@
+/* ARQUIVO PARA A EDIÇÃO DA DIV FILE*/
+ 
+.file{
+    padding: 2rem;
+    padding-right: 7rem;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    padding-right: 7rem;
+    margin-right: 2rem;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px 5rem 10px 10px;
+    
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.icons img{
+    height: 45px;
+    width: 45px;
+    background-color: hsl(229, 57%, 11%);
+    padding: 11px;
+    border-radius: 10px;
+    margin-right: 1rem;
+    object-fit: contain;
+}
+.logo img{
+    height: 35px;
+}
